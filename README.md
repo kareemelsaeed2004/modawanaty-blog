@@ -1,8 +1,8 @@
-div align="center">
+<div align="center">
 
 # 📝 Modawanaty - مدونتي
 
-منصة تدوين احترافية مبنية بـ MERN Stack
+### منصة تدوين احترافية مبنية بـ MERN Stack
 
 [![React](https://img.shields.io/badge/React-18.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20.0-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -11,19 +11,19 @@ div align="center">
 
 **منصة تدوين حديثة وسهلة تسمح للمستخدمين بكتابة ومشاركة مقالاتهم بشكل احترافي**
 
-[التجربة المباشرة](#-التثبيت-والتشغيل) • [المميزات](#-المميزات) • [التقنيات](#️-التقنيات-المستخدمة) • [الفيديو التوضيحي](#-فيديو-توضيحي)
+[التجربة المباشرة](#-التثبيت-والتشغيل) • [المميزات](#-المميزات) • [التقنيات](#️-التقنيات-المستخدمة)
 
 </div>
 
 ---
 
-✨ المميزات
+## ✨ المميزات
 
 <table>
 <tr>
 <td width="50%">
 
-🔐 أمان عالي
+### 🔐 أمان عالي
 - تسجيل دخول آمن بـ JWT
 - تشفير كلمات المرور بـ bcrypt
 - حماية الـ Routes
@@ -31,7 +31,7 @@ div align="center">
 </td>
 <td width="50%">
 
-✍️ محرر متقدم
+### ✍️ محرر متقدم
 - كتابة بتنسيق غني
 - دعم Bold، Italic، Lists
 - معاينة فورية
@@ -41,7 +41,7 @@ div align="center">
 <tr>
 <td width="50%">
 
-🎨 تصميم عصري
+### 🎨 تصميم عصري
 - واجهة احترافية بـ Tailwind
 - متجاوب مع كل الشاشات
 - Animations وتأثيرات حلوة
@@ -60,21 +60,23 @@ div align="center">
 
 ---
 
-🛠️ التقنيات المستخدمة
+## 🛠️ التقنيات المستخدمة
 
-Frontend
-
+### Frontend
 ⚛️ React 18 - بناء الواجهة
 🎨 Tailwind CSS - التصميم
 🔄 React Router - التنقل
 📝 React Quill - محرر النصوص
 🔔 React Hot Toast - الإشعارات
 
-Backend
+text
 
+### Backend
 🟢 Node.js + Express - الخادم
 🍃 MongoDB + Mongoose - قاعدة البيانات
 🔐 JWT + bcrypt - الأمان
+
+text
 
 ---
 
@@ -85,41 +87,46 @@ Backend
 
 ### 1️⃣ نسخ المشروع
 
-
-git clone https://github.com/yourusername/modawanaty-blog.git
+git clone https://github.com/kareemelsaeed2004/modawanaty-blog.git
 cd modawanaty-blog
 
-2️⃣ إعداد Backend
+text
 
+### 2️⃣ إعداد Backend
 
 cd backend
 npm install
 
-**إنشاء ملف `.env`:**
+text
 
+**إنشاء ملف `.env`:**
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/blog-platform
 JWT_SECRET=your_super_secret_key_here
 
-**تشغيل الخادم:**
+text
 
+**تشغيل الخادم:**
 npm run dev
+
+text
 ✅ الخادم شغال على: `http://localhost:5000`
 
-3️⃣ إعداد Frontend
+### 3️⃣ إعداد Frontend
 
 **في terminal جديد:**
-
 cd frontend
 npm install
 npm start
+
+text
 ✅ التطبيق شغال على: `http://localhost:3000`
 
 ---
 
-🎯 كيفية الاستخدام
+## 🎯 كيفية الاستخدام
 
-🆕 إنشاء حساب جديد
+### 🆕 إنشاء حساب جديد
 1. افتح `http://localhost:3000`
 2. اضغط **Get Started**
 3. اكتب بياناتك (الاسم، الإيميل، الباسورد)
@@ -131,7 +138,7 @@ npm start
 3. استخدم المحرر لكتابة المحتوى (مع Bold، Lists، إلخ)
 4. اضغط **Create Post** 🎉
 
-✏️ تعديل أو حذف مقال
+### ✏️ تعديل أو حذف مقال
 - افتح أي مقال إنت كاتبه
 - هتلاقي أزرار **Edit** و **Delete**
 - فقط صاحب المقال يقدر يعدل أو يمسح
@@ -143,7 +150,6 @@ npm start
 ---
 
 ## 📂 هيكل المشروع
-
 
 blog-platform/
 │
@@ -167,11 +173,13 @@ blog-platform/
 │ └── App.js # التطبيق الرئيسي
 └── 📁 public/
 
+text
+
 ---
 
-🔌 API Endpoints
+## 🔌 API Endpoints
 
-🔐 Authentication
+### 🔐 Authentication
 | Method | Endpoint | الوصف |
 |--------|----------|-------|
 | `POST` | `/api/auth/register` | تسجيل مستخدم جديد |
@@ -188,23 +196,7 @@ blog-platform/
 
 ---
 
-📸 صور من المشروع
-
-<div align="center">
-
-🏠 الصفحة الرئيسية
-![Homepage](https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Homepage+with+Posts)
-
-🔐 تسجيل الدخول
-![Login](https://via.placeholder.com/800x450/8B5CF6/FFFFFF?text=Login+Page)
-
-✍️ إنشاء مقال
-![Create](https://via.placeholder.com/800x450/10B981/FFFFFF?text=Create+Post+Editor)
-
-</div>
-
----
-👨‍💻 معلومات المطور
+## 👨‍💻 معلومات المطور
 
 <table>
 <tr>
@@ -214,30 +206,13 @@ blog-platform/
 
 **Student ID:** 2210027  
 **الجامعة:** الأكاديمية الدولية للهندسة وعلوم الإعلام  
-**التخصص:** الوسائط المتعددة و الانتر نت 
+**التخصص:** الوسائط المتعددة والإنترنت
 
-📧 Email: kareem.elsaeed@example.com
-
-[![GitHub](https://img.shields.io/badge/GitHub-@kareemelsaeed-181717?logo=github)](https://github.com/kareemelsaeed)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin)](https://linkedin.com/in/kareemelsaeed)
+📧 Email: kemooelsaeed@gmail.com
 
 </td>
 </tr>
 </table>
-
----
-
-## 🎥 فيديو توضيحي
-
-<div align="center">
-
-📺 **شاهد الفيديو التوضيحي للمشروع (3-5 دقائق)**
-
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo_Video-FF0000?logo=youtube&logoColor=white)](https://youtube.com/your-video-link)
-
-*الفيديو يشرح كل المميزات: التسجيل، إنشاء المقالات، التعديل، الحذف، البحث، Pagination*
-
-</div>
 
 ---
 
@@ -314,4 +289,3 @@ blog-platform/
 الأكاديمية الدولية للهندسة وعلوم الإعلام
 
 </div>
-
