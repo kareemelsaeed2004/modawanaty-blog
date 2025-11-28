@@ -69,14 +69,14 @@
 📝 React Quill - محرر النصوص
 🔔 React Hot Toast - الإشعارات
 
-text
+
 
 ### Backend
 🟢 Node.js + Express - الخادم
 🍃 MongoDB + Mongoose - قاعدة البيانات
 🔐 JWT + bcrypt - الأمان
 
-text
+
 
 ---
 
@@ -90,26 +90,26 @@ text
 git clone https://github.com/kareemelsaeed2004/modawanaty-blog.git
 cd modawanaty-blog
 
-text
+video https://drive.google.com/file/d/1fQdvwhsapS-LjA0PHs2MPxRm6IYuG-pS/view?usp=sharing
 
 ### 2️⃣ إعداد Backend
 
 cd backend
 npm install
 
-text
+
 
 **إنشاء ملف `.env`:**
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/blog-platform
 JWT_SECRET=your_super_secret_key_here
 
-text
+
 
 **تشغيل الخادم:**
 npm run dev
 
-text
+
 ✅ الخادم شغال على: `http://localhost:5000`
 
 ### 3️⃣ إعداد Frontend
@@ -119,7 +119,7 @@ cd frontend
 npm install
 npm start
 
-text
+
 ✅ التطبيق شغال على: `http://localhost:3000`
 
 ---
@@ -173,7 +173,7 @@ blog-platform/
 │ └── App.js # التطبيق الرئيسي
 └── 📁 public/
 
-text
+
 
 ---
 
